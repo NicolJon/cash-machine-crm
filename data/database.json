@@ -21,18 +21,5 @@
       "sort_order": 4
     }
   ],
-  "clients": [
-    {
-      "id": "id_zv1c5sihf",
-      "column_id": "col_proposta",
-      "name": "fd",
-      "razao": "",
-      "doc": "",
-      "phone": "",
-      "address": "",
-      "obs": "",
-      "created_at": 1776739430398,
-      "updated_at": 1776739454783
-    }
-  ]
+  "clients": []
 }
