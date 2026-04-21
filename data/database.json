@@ -24,7 +24,7 @@
   "clients": [
     {
       "id": "id_zv1c5sihf",
-      "column_id": "col_proposta",
+      "column_id": "col_fechado",
       "name": "fd",
       "razao": "",
       "doc": "",
@@ -32,7 +32,7 @@
       "address": "",
       "obs": "",
       "created_at": 1776739430398,
-      "updated_at": 1776739438505
+      "updated_at": 1776739440098
     }
   ]
 }
