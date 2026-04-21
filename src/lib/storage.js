@@ -1,25 +1,27 @@
-import db from './db'; // SQLite (Local)
+import db from './db'; // SQLite (Condicional)
 import fs from 'fs';
 import path from 'path';
 
 /**
  * Esse arquivo decide qual motor de banco de dados usar.
- * Se houver um GITHUB_TOKEN nas variáveis de ambiente, ele usará a API do GitHub.
- * Caso contrário, usará o SQLite local.
+ * Prioridade total para o GitHub se o Token estiver presente ou se estivermos na Vercel.
  */
 
-const STORAGE_TYPE = process.env.GITHUB_TOKEN ? 'github' : 'local';
+const isCloud = process.env.VERCEL || process.env.NODE_ENV === 'production';
+const STORAGE_TYPE = (process.env.GITHUB_TOKEN || isCloud) ? 'github' : 'local';
 
-// -- CONFIGURAÇÕES GITHUB -- //
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO = process.env.GITHUB_REPO; // ex: "usuario/repositorio"
+const GITHUB_REPO = process.env.GITHUB_REPO;
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main';
 const DB_PATH = 'data/database.json';
 
-// Cache para evitar múltiplos fetches do SHA no GitHub
 let lastSha = null;
 
 async function getGitHubData() {
+  if (!GITHUB_TOKEN || !GITHUB_REPO) {
+    throw new Error("Configuração ausente: GITHUB_TOKEN e GITHUB_REPO são obrigatórios para rodar na nuvem.");
+  }
+
   const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${DB_PATH}?ref=${GITHUB_BRANCH}`;
   const res = await fetch(url, {
     headers: {
@@ -31,7 +33,7 @@ async function getGitHubData() {
 
   if (!res.ok) {
     if (res.status === 404) return { columns: [], clients: [] };
-    throw new Error(`Erro ao buscar dados do GitHub: ${res.statusText}`);
+    throw new Error(`Erro API GitHub (${res.status}): Verifique o Token e o Nome do Repositório.`);
   }
 
   const json = await res.json();
@@ -41,7 +43,8 @@ async function getGitHubData() {
 }
 
 async function saveGitHubData(data) {
-  // Primeiro pegamos o SHA atual (necessário para update no GitHub)
+  if (!GITHUB_TOKEN || !GITHUB_REPO) throw new Error("Configuração ausente para salvar no GitHub.");
+
   if (!lastSha) {
     const urlGet = `https://api.github.com/repos/${GITHUB_REPO}/contents/${DB_PATH}?ref=${GITHUB_BRANCH}`;
     const resGet = await fetch(urlGet, {
@@ -81,14 +84,11 @@ async function saveGitHubData(data) {
   return true;
 }
 
-// -- INTERFACE UNIFICADA -- //
-
 export async function getData() {
   if (STORAGE_TYPE === 'github') {
     return await getGitHubData();
   } else {
-    // Para simplificar a transição, o GET no local pode continuar usando SQLite 
-    // ou ler do JSON. Vamos usar o SQLite que já está pronto.
+    if (!db) return { columns: [], clients: [] };
     const columns = db.prepare('SELECT * FROM columns ORDER BY sort_order ASC').all();
     const clients = db.prepare('SELECT * FROM clients ORDER BY updated_at DESC').all();
     return { columns, clients };
@@ -99,11 +99,15 @@ export async function saveData(data) {
   if (STORAGE_TYPE === 'github') {
     return await saveGitHubData(data);
   } else {
-    // No modo local, o SQLite já é persistente. 
-    // Mas para manter compatibilidade com o formato JSON da nuvem, 
-    // poderíamos salvar um backup em JSON aqui também.
     const jsonPath = path.resolve(process.cwd(), DB_PATH);
+    if (!fs.existsSync(path.dirname(jsonPath))) {
+      fs.mkdirSync(path.dirname(jsonPath), { recursive: true });
+    }
     fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2));
+    
+    if (db) {
+       // Opcional: Manter SQLite atualizado se quiser, mas o JSON acima já resolve localmente.
+    }
     return true;
   }
 }
