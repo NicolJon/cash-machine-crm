@@ -33,18 +33,6 @@
       "obs": "",
       "created_at": 1776739430398,
       "updated_at": 1776739454783
-    },
-    {
-      "id": "id_bfzeyqj3b",
-      "column_id": "col_contato",
-      "name": "fdbfdbfddfb",
-      "razao": "",
-      "doc": "",
-      "phone": "",
-      "address": "",
-      "obs": "",
-      "created_at": 1776739447840,
-      "updated_at": 1776739455955
     }
   ]
 }
