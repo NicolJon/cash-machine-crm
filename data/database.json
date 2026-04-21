@@ -36,7 +36,7 @@
     },
     {
       "id": "id_bfzeyqj3b",
-      "column_id": "col_leads",
+      "column_id": "col_fechado",
       "name": "fdbfdbfddfb",
       "razao": "",
       "doc": "",
@@ -44,7 +44,7 @@
       "address": "",
       "obs": "",
       "created_at": 1776739447840,
-      "updated_at": 1776739450982
+      "updated_at": 1776739453263
     }
   ]
 }
