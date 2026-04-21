@@ -1,0 +1,9 @@
+{
+  "columns": [
+    { "id": "col_leads", "title": "Leads", "sort_order": 1 },
+    { "id": "col_contato", "title": "Contato feito", "sort_order": 2 },
+    { "id": "col_proposta", "title": "Proposta", "sort_order": 3 },
+    { "id": "col_fechado", "title": "Fechado", "sort_order": 4 }
+  ],
+  "clients": []
+}
