@@ -33,6 +33,18 @@
       "obs": "Fazer reuniao de apresentação e fechamento\n",
       "created_at": 1776864424698,
       "updated_at": 1776864425679
+    },
+    {
+      "id": "id_my5nandqo",
+      "column_id": "col_proposta",
+      "name": "ALESSANDRO SPINDOLA",
+      "razao": "spiondola cirurgia plastica",
+      "doc": "",
+      "phone": "+55 11 98185-9915",
+      "address": "",
+      "obs": "fazer reunião de proposta e fechamento com gestores ",
+      "created_at": 1776864503521,
+      "updated_at": 1776864504860
     }
   ]
 }
