@@ -45,6 +45,18 @@
       "obs": "fazer reunião de proposta e fechamento com gestores ",
       "created_at": 1776864503521,
       "updated_at": 1776864504860
+    },
+    {
+      "id": "id_pq4tg7xe6",
+      "column_id": "col_contato",
+      "name": "Dra Maisa Rossetto",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 96536-0450",
+      "address": "",
+      "obs": "fazer call de aquecimento e coleta \n",
+      "created_at": 1776864729773,
+      "updated_at": 1776864731015
     }
   ]
 }
