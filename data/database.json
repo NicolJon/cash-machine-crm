@@ -21,5 +21,18 @@
       "sort_order": 4
     }
   ],
-  "clients": []
+  "clients": [
+    {
+      "id": "id_xdyyp0qtu",
+      "column_id": "col_proposta",
+      "name": "André Melo CP",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 91 8111-5253",
+      "address": "",
+      "obs": "Fazer reuniao de apresentação e fechamento\n",
+      "created_at": 1776864424698,
+      "updated_at": 1776864425679
+    }
+  ]
 }
