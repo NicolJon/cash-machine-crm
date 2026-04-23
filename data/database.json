@@ -69,6 +69,18 @@
       "obs": "gerar propostas e apresentação, apresentar para dono",
       "created_at": 1776950031887,
       "updated_at": 1776950033756
+    },
+    {
+      "id": "id_c32qrr88y",
+      "column_id": "col_proposta",
+      "name": "Cláudia Lucas",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 41 9103-1970",
+      "address": "",
+      "obs": "fazer proposta de posicionamento",
+      "created_at": 1776950095713,
+      "updated_at": 1776950098103
     }
   ]
 }
