@@ -57,6 +57,18 @@
       "obs": "fazer call de aquecimento e coleta \n\ndia 25 as 13h\n",
       "created_at": 1776864729773,
       "updated_at": 1776870665087
+    },
+    {
+      "id": "id_xq07ozihv",
+      "column_id": "col_proposta",
+      "name": "Clínica Dr Brother - gestora camila",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 93912-7898",
+      "address": "",
+      "obs": "gerar propostas e apresentação, apresentar para dono",
+      "created_at": 1776950031887,
+      "updated_at": 1776950033756
     }
   ]
 }
