@@ -141,6 +141,18 @@
       "obs": "",
       "created_at": 1777059102455,
       "updated_at": 1777059103190
+    },
+    {
+      "id": "id_akqcbkl9d",
+      "column_id": "col_leads",
+      "name": "Vital Anestesia - bernardo adm",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 61 9144-2882",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059137290,
+      "updated_at": 1777059138207
     }
   ]
 }
