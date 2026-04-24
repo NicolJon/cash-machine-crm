@@ -117,6 +117,18 @@
       "obs": "",
       "created_at": 1777059013527,
       "updated_at": 1777059014344
+    },
+    {
+      "id": "id_o4dvxiz15",
+      "column_id": "col_leads",
+      "name": "Victoria Comercial",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 97354-5801",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059049742,
+      "updated_at": 1777059050269
     }
   ]
 }
