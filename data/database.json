@@ -81,6 +81,18 @@
       "obs": "fazer proposta de posicionamento",
       "created_at": 1776950095713,
       "updated_at": 1776950098103
+    },
+    {
+      "id": "id_mus5as3gt",
+      "column_id": "col_leads",
+      "name": "Clinica Falzoni e Fernandes",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 94574-9109",
+      "address": "",
+      "obs": "mandar mensagem",
+      "created_at": 1777058901536,
+      "updated_at": 1777058902120
     }
   ]
 }
