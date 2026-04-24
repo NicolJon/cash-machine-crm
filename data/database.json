@@ -165,6 +165,18 @@
       "obs": "",
       "created_at": 1777059160483,
       "updated_at": 1777059160884
+    },
+    {
+      "id": "id_axzhcp5m4",
+      "column_id": "col_leads",
+      "name": "~Atendimento Prime DR LEO",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 41 9209-9706",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059179001,
+      "updated_at": 1777059179880
     }
   ]
 }
