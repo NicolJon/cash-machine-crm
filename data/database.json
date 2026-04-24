@@ -132,7 +132,7 @@
     },
     {
       "id": "id_e4te131wl",
-      "column_id": "col_contato",
+      "column_id": "col_leads",
       "name": "Clínica Vasques - Cirurgia Plástica",
       "razao": "",
       "doc": "",
@@ -140,7 +140,7 @@
       "address": "",
       "obs": "",
       "created_at": 1777059102455,
-      "updated_at": 1777059103190
+      "updated_at": 1777059661710
     },
     {
       "id": "id_akqcbkl9d",
