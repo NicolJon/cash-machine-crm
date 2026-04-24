@@ -201,6 +201,18 @@
       "obs": "",
       "created_at": 1777059228805,
       "updated_at": 1777059229352
+    },
+    {
+      "id": "id_evutsfxwh",
+      "column_id": "col_leads",
+      "name": "Luane ",
+      "razao": "",
+      "doc": "",
+      "phone": "(41) 99859-0270",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059262060,
+      "updated_at": 1777059262973
     }
   ]
 }
