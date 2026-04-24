@@ -105,6 +105,18 @@
       "obs": "",
       "created_at": 1777058984022,
       "updated_at": 1777058984894
+    },
+    {
+      "id": "id_z4c1targ1",
+      "column_id": "col_leads",
+      "name": "Contado da Administaração Dr. Gustavo Machado",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 62 9115-0123",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059013527,
+      "updated_at": 1777059014344
     }
   ]
 }
