@@ -48,7 +48,7 @@
     },
     {
       "id": "id_pq4tg7xe6",
-      "column_id": "col_contato",
+      "column_id": "col_leads",
       "name": "Dra Maisa Rossetto",
       "razao": "",
       "doc": "",
@@ -56,7 +56,7 @@
       "address": "",
       "obs": "fazer call de aquecimento e coleta \n\ndia 25 as 13h\n",
       "created_at": 1776864729773,
-      "updated_at": 1776870665087
+      "updated_at": 1777059666033
     },
     {
       "id": "id_xq07ozihv",
