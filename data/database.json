@@ -93,6 +93,18 @@
       "obs": "mandar mensagem",
       "created_at": 1777058901536,
       "updated_at": 1777058902120
+    },
+    {
+      "id": "id_6g6oqky05",
+      "column_id": "col_leads",
+      "name": "Escultural Adm",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 62 3225-2699",
+      "address": "",
+      "obs": "",
+      "created_at": 1777058984022,
+      "updated_at": 1777058984894
     }
   ]
 }
