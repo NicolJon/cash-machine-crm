@@ -177,6 +177,18 @@
       "obs": "",
       "created_at": 1777059179001,
       "updated_at": 1777059179880
+    },
+    {
+      "id": "id_su7xvqke0",
+      "column_id": "col_leads",
+      "name": "Dra Fernanda Buss Comercial",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 48 9246-5754",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059203753,
+      "updated_at": 1777059204502
     }
   ]
 }
