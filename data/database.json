@@ -129,6 +129,18 @@
       "obs": "",
       "created_at": 1777059049742,
       "updated_at": 1777059050269
+    },
+    {
+      "id": "id_e4te131wl",
+      "column_id": "col_contato",
+      "name": "Clínica Vasques - Cirurgia Plástica",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 41 8790-0407",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059102455,
+      "updated_at": 1777059103190
     }
   ]
 }
