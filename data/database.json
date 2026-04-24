@@ -153,6 +153,18 @@
       "obs": "",
       "created_at": 1777059137290,
       "updated_at": 1777059138207
+    },
+    {
+      "id": "id_mbpwrni6n",
+      "column_id": "col_leads",
+      "name": "Rafaela Lopes - Concierge",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 48 9189-6411",
+      "address": "",
+      "obs": "",
+      "created_at": 1777059160483,
+      "updated_at": 1777059160884
     }
   ]
 }
