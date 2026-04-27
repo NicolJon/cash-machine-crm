@@ -65,7 +65,7 @@
     },
     {
       "id": "id_xq07ozihv",
-      "column_id": "col_proposta",
+      "column_id": "id_ar4yzj2pl",
       "name": "Clínica Dr Brother - gestora camila",
       "razao": "",
       "doc": "",
@@ -73,7 +73,7 @@
       "address": "",
       "obs": "gerar propostas e apresentação, apresentar para dono",
       "created_at": 1776950031887,
-      "updated_at": 1776950033756
+      "updated_at": 1777308278229
     },
     {
       "id": "id_c32qrr88y",
