@@ -77,7 +77,7 @@
     },
     {
       "id": "id_c32qrr88y",
-      "column_id": "col_proposta",
+      "column_id": "id_ar4yzj2pl",
       "name": "Cláudia Lucas",
       "razao": "",
       "doc": "",
@@ -85,7 +85,7 @@
       "address": "",
       "obs": "fazer proposta de posicionamento",
       "created_at": 1776950095713,
-      "updated_at": 1776950098103
+      "updated_at": 1777308288101
     },
     {
       "id": "id_mus5as3gt",
