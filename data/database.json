@@ -230,6 +230,18 @@
       "obs": "",
       "created_at": 1777059277598,
       "updated_at": 1777059277984
+    },
+    {
+      "id": "id_nati60nu4",
+      "column_id": "col_leads",
+      "name": "DR FERNANDO FERNANDES",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 94153-3004",
+      "address": "",
+      "obs": "",
+      "created_at": 1777332397150,
+      "updated_at": 1777332399627
     }
   ]
 }
