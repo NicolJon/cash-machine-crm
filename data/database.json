@@ -290,6 +290,18 @@
       "obs": "",
       "created_at": 1777332749893,
       "updated_at": 1777332752439
+    },
+    {
+      "id": "id_0tuvpd2gc",
+      "column_id": "col_leads",
+      "name": "BIA - LIBRIA CIRURGIA PLASTICA",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 94146-5557",
+      "address": "",
+      "obs": "",
+      "created_at": 1777332804088,
+      "updated_at": 1777332806590
     }
   ]
 }
