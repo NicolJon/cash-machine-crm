@@ -254,6 +254,18 @@
       "obs": "",
       "created_at": 1777332439254,
       "updated_at": 1777332441501
+    },
+    {
+      "id": "id_kakut2yji",
+      "column_id": "col_leads",
+      "name": "CLINICA DE OTORRINO TATUAPE",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 11 94524-4931",
+      "address": "",
+      "obs": "",
+      "created_at": 1777332570712,
+      "updated_at": 1777332573267
     }
   ]
 }
