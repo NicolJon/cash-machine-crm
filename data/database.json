@@ -314,6 +314,18 @@
       "obs": "",
       "created_at": 1777332872044,
       "updated_at": 1777332874589
+    },
+    {
+      "id": "id_y60v9vym4",
+      "column_id": "col_leads",
+      "name": "OCIRON",
+      "razao": "",
+      "doc": "",
+      "phone": "41 8857-2558",
+      "address": "",
+      "obs": "",
+      "created_at": 1777333118348,
+      "updated_at": 1777333120972
     }
   ]
 }
