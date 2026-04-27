@@ -29,7 +29,7 @@
   "clients": [
     {
       "id": "id_xdyyp0qtu",
-      "column_id": "col_proposta",
+      "column_id": "id_ar4yzj2pl",
       "name": "André Melo CP",
       "razao": "",
       "doc": "",
@@ -37,7 +37,7 @@
       "address": "",
       "obs": "reuniao dia 28 as 11h \n",
       "created_at": 1776864424698,
-      "updated_at": 1777308249870
+      "updated_at": 1777308283561
     },
     {
       "id": "id_my5nandqo",
