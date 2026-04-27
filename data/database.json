@@ -266,6 +266,18 @@
       "obs": "",
       "created_at": 1777332570712,
       "updated_at": 1777332573267
+    },
+    {
+      "id": "id_5iysy0w64",
+      "column_id": "col_leads",
+      "name": "GERENTE SUELE - DRA KERLY",
+      "razao": "",
+      "doc": "",
+      "phone": "+55 21 99411-9872",
+      "address": "",
+      "obs": "",
+      "created_at": 1777332599413,
+      "updated_at": 1777332601963
     }
   ]
 }
