@@ -19,6 +19,11 @@
       "id": "col_fechado",
       "title": "Fechado",
       "sort_order": 4
+    },
+    {
+      "id": "id_ar4yzj2pl",
+      "title": "Realizar call",
+      "sort_order": 5
     }
   ],
   "clients": [
