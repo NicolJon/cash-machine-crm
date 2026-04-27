@@ -13,17 +13,17 @@
     {
       "id": "col_proposta",
       "title": "Proposta",
-      "sort_order": 3
+      "sort_order": 4
     },
     {
       "id": "col_fechado",
       "title": "Fechado",
-      "sort_order": 4
+      "sort_order": 5
     },
     {
       "id": "id_ar4yzj2pl",
       "title": "Realizar call",
-      "sort_order": 5
+      "sort_order": 3
     }
   ],
   "clients": [
